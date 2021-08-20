@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>canvas</title>
+    </head>
+    <body>
+        <header>
+            <h2>Canvas</h2>
+        </header>
+        <canvas id="canvas" height="500" width="500" style="border: 1px solid #c3c3c3;">
+            Sad Face :(
+        </canvas>
+        <script>
+    //Rectangle
+            var canvas=document.getElementById("canvas");
+            var rectangle=canvas.getContext("2d");
+            rectangle.strokeStyle = "#ff8100";
+            rectangle.strokeRect(125, 50, 200, 400);
+        
+    //Triangle        
+            var canvas=document.getElementById("canvas");
+            var triangle=canvas.getContext("2d");
+            triangle.beginPath();
+            triangle.fillStyle = "rgba(83, 193, 145, 1)";
+            triangle.moveTo(250, 300);
+            triangle.lineTo(310, 300);
+            triangle.lineTo(307, 133);
+            triangle.closePath();
+            triangle.fill();
+        </script>
+
+    </body>
+</html>

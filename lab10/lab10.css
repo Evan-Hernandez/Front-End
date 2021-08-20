@@ -1,0 +1,50 @@
+body{background-color: #484d5c;
+    font-family: 'Cardo', serif;
+    color: #c0ccd4;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-family: 'Oswald', sans-serif;
+    color: #ffce00;
+}
+.script-write{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.button-grp{text-align: center;}
+.button{
+    width: 200px;
+    padding: 15px 30px;
+    margin-top: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #ffce00; 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999
+}
+.button:hover {background-color: #c49c00;}
+.button:active {
+    background-color: #c49c00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .title{
+        font-size: 35px;
+    }
+    .script-write{
+        font-size: 23px;
+    }
+        
+}/* mobile landscape to tablet portrait */

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Working Hard?</title>
+    <meta name="description" content="or hardly working?" />
+    <meta name="author" content="Evan Hernandez" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="lab10.css">
+    <script type="text/javascript">
+        function yes() {
+            var yes = "That's Great!  Keep up the good work!";
+            alert(yes);
+        }
+        function no() {
+            var no = "Well that's alright, tomorrow is a new day!";
+            alert(no);
+        }
+        function display(){
+            var butt = document.getElementByTagName("input")
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Were You Productive Today?</h1>
+        </div>
+    </header>
+    <div class="script-write">
+        <script>
+            document.write("Pick the button that best expresses how you feel.")
+        </script>
+    </div>
+    <div class="button-grp">
+        <input class="button" type="button" onclick="yes()" value="ᕕ( ᐛ )ᕗ">
+        <input class="button" type="button" onclick="no()" value="ಥ_ಥ">
+        <script>
+            var display = getElementByTagName("input");
+            document.write(display);
+        </script>
+    </div>
+
+</body>
+
+</html>

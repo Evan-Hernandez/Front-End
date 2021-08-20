@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>lab11</title>
+    <link rel="stylesheet" href="lab11.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Common Keyboard Sizes</h1>
+    </header>
+
+    <div class="keebArray">
+        <script>
+            //Variables
+            var x; //loop counter
+            var keeb = []; //array for text
+            var keebImg = []; //array for images
+            keeb[0] = "Full-Sized";
+            keebImg[0] = new Image();
+            keebImg[0].src = 'https://images.squarespace-cdn.com/content/v1/5e5322ca12eb83660a2207ad/1583864996352-JUGZPC4CA5NKMW3Z5JLV/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcW7uEhC96WQdj-SwE5EpM0lAopPba9ZX3O0oeNTVSRxdHAmtcci_6bmVLoSDQq_pb/full_1280.jpg?format=300w';
+
+            keeb[1] = "Tnkeyless (TKL)";
+            keebImg[1] = new Image();
+            keebImg[1].src = 'https://images.squarespace-cdn.com/content/v1/5e5322ca12eb83660a2207ad/1583865015274-UZ4XTFGHXTUCM74DJLW0/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcW7uEhC96WQdj-SwE5EpM0lAopPba9ZX3O0oeNTVSRxdHAmtcci_6bmVLoSDQq_pb/TKL_1280.jpg?format=300w';
+
+            keeb[2] = '75%';
+            keebImg[2] = new Image();
+            keebImg[2].src = 'https://images.squarespace-cdn.com/content/v1/5e5322ca12eb83660a2207ad/1583870065899-W87VSTGO153KWXMU5UMR/ke17ZwdGBToddI8pDm48kDFgITcRoterXoQdllT5ciUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcV7ZyRJyI8bwZiMJRrgPaAKqUaXS0tb9q_dTyNVba_kClt3J5x-w6oTQbPni4jzRa/tkc_godspeed75_keyboard_75-percent_1200.jpg?format=300w';
+
+            keeb[3] = '60%';
+            keebImg[3] = new Image();
+            keebImg[3].src = 'https://images.squarespace-cdn.com/content/v1/5e5322ca12eb83660a2207ad/1583865111794-MSCUYMVXQJCI3PT6WUCW/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcW7uEhC96WQdj-SwE5EpM0lAopPba9ZX3O0oeNTVSRxdHAmtcci_6bmVLoSDQq_pb/60_1280.jpg?format=300w';
+
+            keeb[4] = '40%';
+            keebImg[4] = new Image();
+            keebImg[4].src = 'https://images.squarespace-cdn.com/content/v1/5e5322ca12eb83660a2207ad/1594916565626-GIBESKZDVIE287YEK6P8/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/Infinikey-Graen_minivan_overhead_1920x1080.jpg?format=300w';
+
+            //Display array
+            for (x = 0; x < keeb.length; x++) {
+                document.write("<p>" + keeb[x] + "</p>" + "<br>"); //for the text
+                document.write("<img src=" + keebImg[x].src + ">" + "<br>"); //for the images
+            }
+        </script>
+    </div>
+</body>
+
+</html>

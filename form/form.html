@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--Title-->
+    <title>Crooked Year Leatherworks</title>
+    <meta name="keywords" content="buisness, leatherwork, leather" />
+    <meta name="description" content="A buisness web page for CYL" />
+    <meta name="author" content="Evan Hernandez" />
+
+    <meta http-equiv="content-type" content="text/html" />
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <a name="top"></a>
+    <header>
+        <h1>Contact Us</h1>
+        <hr />
+    </header>
+    <p>
+        If you are interested in a custom product, please contact us using the form below.
+    </p>
+    <form action="mailto:crookedyearleather@gmail.com" autocomplete="on" method="post">
+
+        <!--Name-->
+        <label for="name">Name </label>
+        <input type="text" placeholder="John Doe" autofocus name="name" />
+
+        <!--Email-->
+        <label for="email">Email </label>
+        <input type="email" id="email" placeholder="JohnDoe123@???.com" autofocus name="email" />
+        <!--3rd Element(Product Type)-->
+        <label for="product">Product </label>
+        <input type="text" id="product" placeholder="Wallet" autofocus name="product" />
+        <!--Slider-->
+        <label for="price">Price (between $20 and $100) </label>
+        <input type="range" min="20" max="100" step="5" value="20">
+        <br>
+        <!--Enter a number-->
+        <label for="quantitiy">Quantitiy </label>
+        <input type="number" min="0" max="1000" step="1" value="0">
+        <!--Date-->
+        <label for="birthday">Birthday </label>
+        <input type="date" id="birthday" placeholder="mm/dd/yyyy" autofocus name="birthday" />
+        <!--Time-->
+        <label for="time">Time of Birth </label>
+        <input type="time" id="time" autofocus name="time" />
+        <br><br>
+        <!--Submit-->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--Button-->
+    <p>
+        You can contact me directly through Instagram.
+        <br>
+        <a href="https://www.instagram.com/crookedyear_leatherworks/" target="_blank">
+            <button type="button">
+                <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png"
+                    style="width: 50px; height: 50px;">
+            </button>
+        </a>
+    </p>
+
+    <br><br>
+    <footer>
+        &copy; 2021 Evan Hernandez
+        <br>
+        <a href="#top">Back to top of page</a>
+    </footer>
+</body>
+
+</html>
